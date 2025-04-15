@@ -2,7 +2,7 @@
 
 ## Abstract
 This repository contains the implementation of CSPO, a novel framework for stock price movement forecasting that leverages cross-market synergy and pseudo-volatility optimization. CSPO demonstrates superior performance over existing methods by effectively addressing two key market characteristics: stock exogeneity and volatility heterogeneity.
-
+ [paper_url]https://arxiv.org/pdf/2503.22740
 ## Key Features
 - **Cross-market Synergy**: Leverages external futures knowledge to enrich stock embeddings with cross-market insights
 - **Pseudo-volatility Optimization**: Models stock-specific forecasting confidence through pseudo-volatility, enabling dynamic adaptation of the optimization process
