@@ -12,8 +12,7 @@ This repository contains the implementation of CSPO, a novel framework for stock
 CSPO combines:
 1. A transformer-based model for processing stock and future features
 2. Multi-head attention mechanisms for temporal pattern extraction
-3. LoRA (Low-Rank Adaptation) layers for efficient fine-tuning
-4. Pseudo-volatility modeling for adaptive optimization
+3. Pseudo-volatility modeling for adaptive optimization
 
 ## Results
 Extensive experiments including industrial evaluation and public benchmarking demonstrate CSPO's effectiveness in:
@@ -29,7 +28,6 @@ This repository contains the complete codebase for the CSPO framework developed 
 ### Core Model Files
 - `model.py`: Contains the main neural network architectures:
   - `Model`: Base transformer model for stock prediction
-  - `loraModel`: Variant using LoRA (Low-Rank Adaptation) for efficient fine-tuning
   - `Model2`: Ensemble model combining multiple base models
 
 ### Training Scripts
@@ -40,7 +38,6 @@ This repository contains the complete codebase for the CSPO framework developed 
 
 ### Supporting Modules
 - `decoderGT.py`: Transformer decoder implementation
-- `loraModel.py`: LoRA transformer implementation
 - `pytorch_transformer_ts.py`: Time series transformer utilities
 - `utils.py`: Utility functions
 - `dataset.py`: Data loading and preprocessing
@@ -60,4 +57,3 @@ Key components include:
 - Multi-head attention
 - Layer normalization
 - Positional encoding
-- LoRA adaptation layers (in loraModel)
