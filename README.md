@@ -42,10 +42,6 @@ This repository contains the complete codebase for the CSPO framework developed 
 - `utils.py`: Utility functions
 - `dataset.py`: Data loading and preprocessing
 
-### Experimental Directories
-- `final_exp/`: Final experiment configurations
-- `final_exp_ablation/`: Ablation study configurations
-
 ## Model Details
 
 The models use transformer architectures to:
